@@ -17,18 +17,18 @@
             touch-action: manipulation; /* Disable double-tap zoom */
         }
         h1 {
-            font-size: 2em;
+            font-size: 1.5em; /* Smaller text */
             margin: 20px 0 10px;
             color: white;
         }
         #timer {
-            font-size: 1.5em;
+            font-size: 1em; /* Smaller text */
             margin-left: 20px;
             vertical-align: top;
             color: white;
         }
         #heart {
-            font-size: 6em;
+            font-size: 4em; /* Smaller heart */
             cursor: pointer;
             transition: transform 0.3s ease-in-out;
             display: block;
@@ -59,7 +59,7 @@
             position: fixed;
             bottom: 10px;
             right: 10px;
-            font-size: 1.2em;
+            font-size: 0.9em; /* Smaller text */
             color: white;
             font-style: italic;
         }
@@ -68,8 +68,8 @@
             left: 10px;
             top: 50%;
             transform: translateY(-50%);
-            width: 150px;
-            height: 150px;
+            width: 100px; /* Smaller moon */
+            height: 100px; /* Smaller moon */
             background-image: url('https://i.imgur.com/IKEDGLm.jpeg');
             background-size: cover;
             border-radius: 50%;
@@ -78,8 +78,8 @@
             position: absolute;
             top: -100px;
             animation: fall linear infinite;
-            width: 70px;
-            height: 70px;
+            width: 40px; /* Smaller flowers */
+            height: 40px; /* Smaller flowers */
             background-size: cover;
         }
         @keyframes fall {
@@ -89,13 +89,12 @@
         }
         #card {
             position: fixed;
-            top: 50%;
-            right: 20px;
-            transform: translateY(-50%);
+            bottom: 20px; /* Shifted to the bottom */
+            right: 20px; /* Shifted to the right */
             background-color: rgba(255, 255, 255, 0.9);
-            padding: 20px;
+            padding: 15px; /* Smaller padding */
             border-radius: 10px;
-            width: 250px;
+            width: 180px; /* Smaller card */
             text-align: center;
             color: purple;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -104,14 +103,14 @@
         }
         #card h2 {
             margin: 0 0 10px;
-            font-size: 1.5em;
+            font-size: 1.2em; /* Smaller text */
         }
         #card p {
             margin: 0;
-            font-size: 1em;
+            font-size: 0.9em; /* Smaller text */
         }
         #card img {
-            width: 100px;
+            width: 80px; /* Smaller cat image */
             height: auto;
             margin-top: 10px;
         }
